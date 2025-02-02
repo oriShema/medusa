@@ -1955,6 +1955,7 @@ $adb remount
                         f.write(data)
                     self.fix_res(APP_FOLDER + '/res/values-v31/colors.xml')
                     self.fix_res(APP_FOLDER + '/res/values-v34/colors.xml')
+                    self.fix_res(APP_FOLDER + '/res/values-v35/colors.xml')
 
                 if (not alreadyDebuggable) or Polar('[?] Do you want to build the previous decompiled apk ?').ask():    
                     logger.info("[+] Repacking the app...")
